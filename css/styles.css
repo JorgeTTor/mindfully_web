@@ -46,10 +46,11 @@ body{
   background-color:hsla(211, 62%, 16%, 0.718); 
   transition: .3s transform;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 150px;
   display: grid;
   align-content: start;
   list-style: none;
+  z-index: 10;
 }
 
 .nav__item {
@@ -74,16 +75,19 @@ body{
 
 
 .nav__logo {
-  width: 100px;
+  width: 80px;
   border-radius: 20%;
 }
 
 .nav__icon {
+  width: 80px;
   grid-column: 2/3;
   grid-row: 1/2;
   transform: scale(0);
+  z-index:100;
 }
 
 .nav__icon--show{
   transform: scale(1);
+  position: relative;
 }
