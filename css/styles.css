@@ -51,11 +51,16 @@ body{
 }
 
 .nav__logo {
-  width: 150px;
+  width: 100px;
   border-radius: 20%;
 }
 
 .nav__icon {
   grid-column: 2/3;
   grid-row: 1/2;
+  transform: scale(0);
+}
+
+.nav__icon--show{
+  transform: scale(1);
 }
