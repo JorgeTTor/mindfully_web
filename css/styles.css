@@ -44,7 +44,7 @@ body{
   padding: 0;
   padding-top: 150px;
   display: grid;
-  align-content: start;
+  grid-auto-rows: max-content;
   list-style: none;
   z-index: 10;
 }
@@ -77,13 +77,5 @@ body{
 
 .nav__icon {
   width: 80px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  transform: scale(0);
   z-index:100;
-}
-
-.nav__icon--show{
-  transform: scale(1);
-  position: relative;
 }
