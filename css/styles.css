@@ -25,6 +25,16 @@ body{
   overflow: hidden;
 
 }
+header{
+  max-height:600px ;
+}
+
+
+.hero {
+  background-image: url('.svg');
+
+  
+}
 
 .nav {
   height: 200px;
@@ -42,7 +52,7 @@ body{
   background-color:hsla(211, 62%, 16%, 0.718); 
   transition: .3s transform;
   padding: 0;
-  padding-top: 150px;
+  padding-top: 200px;
   display: grid;
   grid-auto-rows: max-content;
   list-style: none;
@@ -60,22 +70,38 @@ body{
   text-align: center;
 }
 
+.nav__link--cta  {
+  margin-top: 20px;
+  border: 1px solid #FFF ;
+  border-radius: 10px;
+}
+
 .nav__link{
   text-decoration: none;
   color: white;
 }
-
-.nav__list--show {
-  transform: translate(0);
-}
-
 
 .nav__logo {
   width: 80px;
   border-radius: 20%;
 }
 
+.nav__list--show {
+  transform: translate(0);
+}
+
 .nav__icon {
   width: 80px;
   z-index:100;
+}
+
+.hero__main {
+ 
+}
+
+.img{
+  display: grid;
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
 }
