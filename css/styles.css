@@ -14,7 +14,7 @@
 }
 
 html {
-  font-size: 62.5%;
+
 }
 
 body{
@@ -43,12 +43,35 @@ body{
   transform: translateY(-100%);
   position: absolute;
   inset: 0;
-   background-color:hsla(211, 62%, 16%, 0.718); 
+  background-color:hsla(211, 62%, 16%, 0.718); 
+  transition: .3s transform;
+  padding: 0;
+  padding-top: 100px;
+  display: grid;
+  align-content: start;
+  list-style: none;
+}
+
+.nav__item {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 1em 0;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
 }
 
 .nav__link{
-  list-style: none;
+  text-decoration: none;
+  color: white;
 }
+
+.nav__list--show {
+  transform: translate(0);
+}
+
 
 .nav__logo {
   width: 100px;

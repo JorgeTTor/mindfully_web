@@ -1,9 +1,12 @@
-const menu = document.querySelectorAll('.nav__icon');
+const burguerIcon = document.querySelectorAll('.nav__icon');
+const menu = document.querySelector('.nav__list');
 
-menu.forEach(element => {
+burguerIcon.forEach(element => {
   element.addEventListener('click', () => {
     console.log('Holla mundo')
     
-    element.classList.toggle();
+    // element.classList.toggle();
+
+    menu.classList.toggle('nav__list--show');
   })
 })
