@@ -27,6 +27,7 @@ body{
 
 .hero {
   background-image: url('/assets/images/wave_.svg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 30vh ;
@@ -96,12 +97,12 @@ body{
 flex-wrap: wrap;
 justify-content: center;
  margin-bottom: 20px;
- min-height: 100vh;
+ min-height: vh;
 } 
 
 .picture{
  width: 90%;
-
+ height: auto;
 }
 
 .img{
@@ -112,10 +113,9 @@ justify-content: center;
 .hero__texts{
  position: relative;
   min-width: 400px;
-  padding: 40px 0 40px;
+  padding: 20px 0 20px;
   text-align: center;
   color: #EDF0F3;
-
 }
 
 .hero__title {
@@ -129,35 +129,43 @@ justify-content: center;
 }
 
 .main {
-  min-width: 320px;
+  
+  gap: 20px;
+  min-width: 400px;
+  height: 80vh;
+  height: auto;
   padding-top: 10px;
  }
 
- .main__texts{
-  grid-area: texts;
+ .main__texts, .main__picture {
+  width: 100%;
  }
+
+ .main__texts{
+  margin: 0 auto;
+  height: auto;
+  margin: 20px 20px 28px;
+ }
+
+ .subtitle{
+  color:var(--dark-blue-ocean);
+  font-size: 2rem;
+}
 
  .main__paragraph {
   line-height: 1.3;
-  margin: 20px 20px 28px;
   color: var(--white);
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
- .main__img {
-  max-width: 100%;
-  height: auto;
-
- }
-
-.subtitle{
-  color:var(--dark-blue-ocean);
-  font-size: 2rem;
+.button {
+    text-align: center;
 }
 
 .button--cta {
   display: inline-block;
+  width: 300px;
   margin: 20px 0 20px;
   text-decoration: none;
   background-color: var(--dark-blue-ocean);
@@ -169,11 +177,37 @@ justify-content: center;
 
 }
 
-@media  (min-width: 400px) {
+ .main__img {
+  width: 400px;
+  height: auto;
+ }
+
+
+@media  (min-width: 480px) {
 
   .hero__main {
     min-height: auto;
     text-align: center;
   }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+  }
+
+  .main__texts{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+  }
+
+  .main__picture{
+    grid-column: 2;
+    /* grid-row-start: 1 / span 2; */
+    text-align: center;
+  }
+
 
 }
