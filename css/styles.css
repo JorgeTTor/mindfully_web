@@ -141,7 +141,7 @@ justify-content: center;
   width: 100%;
  }
 
- .main__texts{
+ .main__texts,.testimonals__texts {
   margin: 0 auto;
   height: auto;
   margin: 20px 20px 28px;
@@ -184,13 +184,14 @@ justify-content: center;
 
 .testimonials__container {
   width: 100%;
+  text-align: center;
   background-color: #b9d6f4;
 }
 
 .card{
   width: 320px;
   height: 420px;
-  margin: 20px;
+  margin: 0 auto;
 }
 
 .quote{
