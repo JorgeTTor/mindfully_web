@@ -141,10 +141,10 @@ justify-content: center;
   width: 100%;
  }
 
- .main__texts,.testimonals__texts {
+ .main__texts, .cards__texts {
   margin: 0 auto;
   height: auto;
-  margin: 20px 20px 28px;
+  padding: 20px 20px 20px;
  }
 
  .subtitle{
@@ -186,8 +186,12 @@ justify-content: center;
   width: 100%;
   text-align: center;
   background-color: #b9d6f4;
+  
 }
 
+.card__texts{
+  margin-top: 40px;
+}
 .card{
   width: 320px;
   height: 420px;
@@ -199,8 +203,9 @@ justify-content: center;
 }
 
 .testimonial__img{
-  width: 200px;
-
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
 }
 
 @media  (min-width: 480px) {
