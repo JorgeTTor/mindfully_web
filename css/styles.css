@@ -201,7 +201,7 @@ justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color:var(--deep-blue-ocean) ;
+  background-color:var(--dark-blue-ocean) ;
   border-radius: 10px;
 }
 
@@ -266,6 +266,6 @@ justify-content: center;
   .cards__container{
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 }
