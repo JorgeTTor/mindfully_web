@@ -240,7 +240,7 @@ justify-content: center;
 
 footer{
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: var(--darker-blue);
   margin: 20px 0;
 }
