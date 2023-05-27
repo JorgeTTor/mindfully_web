@@ -195,7 +195,6 @@ justify-content: center;
  
 }
 
-
 .card{
   width: 320px;
   height: auto;
@@ -241,6 +240,17 @@ justify-content: center;
 
 footer{
   background-color: var(--darker-blue);
+}
+
+.footer__nav {
+  margin: 20px 20px;
+}
+
+.nav__links{
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-weight: 500;
 }
 
 
