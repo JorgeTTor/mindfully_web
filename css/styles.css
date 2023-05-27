@@ -239,7 +239,14 @@ justify-content: center;
 }
 
 footer{
+ width: 100%;
+  max-width: 1200px;
+  height: auto;
   background-color: var(--darker-blue);
+}
+
+.footer__form {
+  color: var(--white);
 }
 
 .footer__nav {
