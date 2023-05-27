@@ -240,15 +240,18 @@ justify-content: center;
 
 footer{
   width: 100%;
-  max-width: 1200px;
   height: 400px;
-
   background-color: var(--darker-blue);
+  margin: 20px 0;
 }
 
 .footer__form {
   color: var(--white);
-  margin: 10px 20px ;
+  margin: 20px 20px ;
+}
+
+.section--title .footer--paragraph {
+  padding: 20px;
 }
 
 .newsletter__form input{
@@ -264,7 +267,6 @@ footer{
   padding: .6em .6em;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 0 10px -7px;
   border: none;
   margin-top: 10px;
   font-weight: 300;
@@ -272,6 +274,14 @@ footer{
 
 .footer__nav {
   margin: 20px 20px;
+}
+
+.media__links {
+  margin-left: 40px;
+}
+
+.media__links ul li{
+  display: inline-block;
 }
 
 .nav__links{
@@ -285,6 +295,7 @@ footer{
   display: block;
   width: 150px;
 }
+
 
 @media  (min-width: 480px) {
 
