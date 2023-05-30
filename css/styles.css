@@ -16,7 +16,7 @@
 
 body{
    font-family: 'Work Sans', sans-serif;
-   background-color: #67A1DD;
+  min-height: 100vh;
 }
 
 .container{
@@ -133,9 +133,9 @@ justify-content: center;
  
   gap: 20px;
   min-width: 400px;
-  height: 80vh;
   height: auto;
-  padding-top: 10px;
+
+  background-color: #67A1DD;
  }
 
  .main__texts, .main__picture {
@@ -191,8 +191,7 @@ justify-content: center;
 }
 
 .card__texts{
-  margin-top: 40px;
- 
+ padding-top: 40px;
 }
 
 .card{
@@ -240,7 +239,8 @@ justify-content: center;
 
 footer{
   width: 100%;
-  min-width: 1200px;
+  margin: 0 auto;
+  max-width: 12;
   height: 600px;
   background-color: var(--darker-blue);
   margin: 20px 20px;
