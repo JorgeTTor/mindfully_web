@@ -95,10 +95,9 @@ body{
 
 .hero__main {
  display: flex;
-flex-wrap: wrap;
-justify-content: center;
- margin-bottom: 20px;
-
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
 } 
 
 .picture{
