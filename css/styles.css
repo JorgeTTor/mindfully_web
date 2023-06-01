@@ -111,7 +111,6 @@ body{
 
 .img{
  max-width: 400px;
-
 }
 
 .hero__texts{
@@ -351,4 +350,41 @@ footer .footer__copyright{
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
+
+    @media (min-width: 768px) {
+      
+      .nav {
+        height: 200px;
+      }
+      .nav__icon {
+        display: none;
+      }
+      .nav__list {
+        transform: translateY(0);
+  
+        background-color:hsla(211, 76%, 44%, 0.718); 
+  
+        padding-top: 10px;
+        display: flex;
+        z-index: 1;
+        height: 100px;
+        
+      }
+
+      .navv__list--show {
+        display: grid;
+      
+      }
+
+      .nav__item {
+       width: 90%;
+       height: fit-content;
+  
+        text-transform: uppercase;
+        font-size: 1.3em;
+        text-align: center;
+      }
+
+  }
+
 }
