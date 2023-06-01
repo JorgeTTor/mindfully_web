@@ -354,7 +354,10 @@ footer .footer__copyright{
     @media (min-width: 768px) {
       
       .nav {
-        height: 200px;
+        height: 150px;
+        grid-auto-flow: column;
+        grid-auto-columns: ;
+        
       }
       .nav__icon {
         display: none;
@@ -368,6 +371,7 @@ footer .footer__copyright{
         display: flex;
         z-index: 1;
         height: 100px;
+      
         
       }
 
@@ -377,13 +381,19 @@ footer .footer__copyright{
       }
 
       .nav__item {
-       width: 90%;
-       height: fit-content;
-  
+      
+        border: none;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
         text-transform: uppercase;
-        font-size: 1.3em;
-        text-align: center;
+        font-size: 1em;
+    
+        
       }
+
+    
+      
 
   }
 
