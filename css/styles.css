@@ -249,11 +249,11 @@ footer{
 }
 
 .footer__form {
-  margin: 20px 20px ;
+  margin: 20px 10px ;
 }
 
 .section--title .footer--paragraph {
-  padding: 20px;
+  padding:20px 20px;
 }
 
 .newsletter__form input{
@@ -274,21 +274,23 @@ footer{
   font-weight: 300;
 }
 
-.footer__nav {
-  margin: 20px 20px;
-}
-
 .media__links {
-  margin-left: 40px;
+  margin: 10px 20px;
+  font-size: 1.3rem;
 }
 
 .media__links ul li{
   display: inline-block;
 }
 
+
+.footer__nav {
+  margin: 20px 20px;
+}
+
 .nav__links{
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 30px;
   font-weight: 500;
 }
