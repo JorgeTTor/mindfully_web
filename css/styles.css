@@ -356,23 +356,20 @@ footer .footer__copyright{
       .nav {
         height: 150px;
         grid-auto-flow: column;
-        grid-auto-columns: ;
-        
+        grid-auto-columns:max-content ;
+     
       }
       .nav__icon {
         display: none;
       }
       .nav__list {
-        transform: translateY(0);
-  
-        background-color:hsla(211, 76%, 44%, 0.718); 
-  
-        padding-top: 10px;
         display: flex;
-        z-index: 1;
-        height: 100px;
-      
-        
+        position: relative;
+        transform: none;
+        width: fit-content;
+        gap: 1em;
+        background-color: #ffffff00;    
+        padding-top: 10px;
       }
 
       .navv__list--show {
@@ -387,13 +384,11 @@ footer .footer__copyright{
         height: fit-content;
         margin: 0 auto;
         text-transform: uppercase;
-        font-size: 1em;
-    
+        font-size: 1.3em;
+        font-weight: 500;
         
       }
 
-    
-      
 
   }
 
