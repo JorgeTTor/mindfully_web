@@ -253,7 +253,7 @@ footer{
 }
 
 .section--title .footer--paragraph {
-  padding:20px 20px;
+  margin: 20px 20px;
 }
 
 .newsletter__form input{
