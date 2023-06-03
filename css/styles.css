@@ -179,7 +179,6 @@ body{
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 0 10px -7px;
-
 }
 
  .main__img {
@@ -254,6 +253,7 @@ footer{
 }
 
 .footer__form {
+  display: block;
   margin: 20px 10px ;
 }
 
@@ -262,9 +262,13 @@ footer{
 }
 
 .newsletter__form input{
+
   padding: 1em;
   border-radius: 10px;
   border: none;
+}
+.footer__input {
+  width: 200px;
 }
 
 .button--sus{
@@ -277,6 +281,10 @@ footer{
   border: none;
   margin-top: 10px;
   font-weight: 300;
+}
+
+.button--sus:hover {
+  cursor: pointer;
 }
 
 .media__links {
@@ -297,11 +305,6 @@ footer{
   font-size: 1.3rem;
   line-height: 30px;
   font-weight: 500;
-}
-
-.footer__form .button--sus{
-  display: block;
-  width: 150px;
 }
 
 .footer__contact {
@@ -367,36 +370,46 @@ footer{
     height: auto;
     padding-right: 20px;
    }
-  
-
   .cards__container{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
   
-
  .footer {
   gap: 2em;
   grid-template-areas: 
-    "footerform footernavbar footercontact"
-    "footerform footernavbar footercontact"
+    "form navbar contact"
+    "form navbar contact"
     "copyright copyright copyright"
   ;
+  align-items: center;
  }
 
- .footer__navbar{
-  grid-area: footernavbar;
+.footer__form{
+  grid-area: form ;
+}
+
+.footer__navbar{
+  grid-area: navbar
  }
  
  .footer__contact {
-  grid-area: footercontact;
+  grid-area: contact
  }
 
  .footer__copyright {
   grid-area: copyright;
  }
  
+.section--title{
+  padding-top: 20px;
+}
+
+.footer--paragraph {
+  padding-top: 10px;
+}
+
 
 }
 
@@ -428,7 +441,6 @@ footer{
   }
 
   .nav__item {
-  
     border: none;
     width: fit-content;
     height: fit-content;
