@@ -246,27 +246,33 @@ footer{
   display: grid;
   grid-auto-rows:auto;
   margin: 0 auto;
-  
   background-color: var(--darker-blue);
   padding: 20px 20px;
   color: var(--white);
+  align-items: center;
 }
 
 .footer__form {
   display: block;
-  margin: 20px 10px ;
+  margin: 20px 20px ;
 }
 
-.section--title .footer--paragraph {
-  margin: 20px 20px;
+.section--title, .footer--paragraph  {
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.footer--paragraph{
+  padding-bottom: 10px;
 }
 
 .newsletter__form input{
-
   padding: 1em;
+
   border-radius: 10px;
   border: none;
 }
+
 .footer__input {
   width: 200px;
 }
@@ -288,7 +294,7 @@ footer{
 }
 
 .media__links {
-  margin: 10px 20px;
+  margin: 20px 0;
   font-size: 1.3rem;
 }
 
@@ -303,8 +309,13 @@ footer{
 .nav__links{
   list-style: none;
   font-size: 1.3rem;
-  line-height: 30px;
   font-weight: 500;
+  line-height: 40px;
+}
+
+.footer__link{
+  color: var(--white);
+  text-decoration: none;
 }
 
 .footer__contact {
