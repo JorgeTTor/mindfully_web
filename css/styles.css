@@ -241,6 +241,10 @@ body{
   border-bottom: 2px solid var(--white);
 }
 
+.blog__card {
+  background-color: var(--light-blue-ocean);
+}
+
 footer{
   width: 100%;
   display: grid;
