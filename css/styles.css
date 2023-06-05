@@ -203,13 +203,17 @@ body{
   margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 30px;
-  background-color:var(--dark-blue-ocean) ;
-  border-radius: 10px;
-  
 }
 
 .card--content {
   padding: 20px ;
+  border-radius: 10px;
+  background-color:var(--dark-blue-ocean) ;
+}
+.card__meditation {
+  background-color: var(--darker-blue);
+  padding: 20px ;
+  border-radius: 10px;
 }
 
 .quote{
@@ -241,9 +245,7 @@ body{
   border-bottom: 2px solid var(--white);
 }
 
-.blog__card {
-  background-color: var(--light-blue-ocean);
-}
+
 
 footer{
   width: 100%;
