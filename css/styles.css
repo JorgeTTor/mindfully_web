@@ -83,6 +83,7 @@ body{
   color: white;
 }
 
+
 .nav__logo, .footer__icon {
   width: 80px;
   border-radius: 20%;
@@ -393,6 +394,11 @@ footer{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .nav__link:hover {
+    color: var(--dark-blue-ocean);
+    font-weight: 500;
   }
   
  .footer {
