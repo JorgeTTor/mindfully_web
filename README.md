@@ -1,17 +1,26 @@
 
-## Mindfully Web (Underline)
+## Mindfully Web
+
+## Mindfully Web 
+
 
 # Project Overview
-- This Porject was developed with the intention of practicing HTML, CSS and JavaScript skills, also intended to incorporate UI Design and Mobile first design practices.
+- This Project was developed with the intention of practicing HTML, CSS and JavaScript skills, also intended to incorporate UI Design and Mobile first design practices.
 - Website could be a tool of knowledge for people interested in practicing Mindfulness and are not certain where to start.
 - The website showcases a Testimonials section with experiences of other fellows Mindfulness practitioners with the intention to inspire another people.
 - Section with guided meditations with audios hosted on soundcloud for practicality and with the intention of bringing easy access to these meditations.
 - Blog Section with articles about Mindfulness to enhance the practice with facts based information.
-- It is 
-(Timeline and milestones for the website project)
+- Designed the interface and started from a mobile first perspective. 
 
 
  # Project Requirements [WIP]
+ 
+ - Used HTML, CSS and JavaScript for the layout.
+ - Implemented soundcloud to host audios and embedded it on our website. 
+ - Used Medium to post the articles and a SocialKit Widget to display the articles on the blog section. It would save development time.
+ - The Login and the contact features will be developed on the second stage of this project.
+ - Adding a functionality to add favorite meditations and create user profile to save blogs and favorite meditations, could be an interesting challenge.
+ - The 
 Technical requirements for the website (e.g., programming language, CMS, database)
 Functional requirements for the website (e.g., user login, search functionality, shopping cart)
 Content requirements for the website (e.g., text, images, videos)
