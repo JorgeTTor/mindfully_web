@@ -30,6 +30,8 @@
 
 - First step was doing a mockup on paper, and then choosing the color palette, proceeding to Figma to create wireframes.
 - The development proccess started from a mobile first design perspective.
+- The guided meditations and blog sections will be frequently updated. 
+- Weekly testing of the website.
 - The performance test reached positive numbers.
 <figure>
 <img src="./assets/_images/Lighthouse_Mindfully.png" alt="Lightouse Test">
@@ -37,11 +39,9 @@
 </figure>
 
 
-# Project Launch [WIP]
-Plan for launching the website, including marketing and promotion strategies
-Plan for ongoing maintenance and updates to the website
-Plan for measuring website performance and success
+# Project Launch
+- The team will perform weekly testing on different components.
+- The blog section will be monitored two times a week to make sure the widget is working perfectly.
+- The guided meditations and blog section will be updated weekly, in order to have fresh content and relevant.
 
-# Conclusion [WIP]
-A website project documentation is a crucial document that outlines all aspects of the project from beginning to end. By including all necessary information, team members can have a clear understanding of the project goals, requirements, timeline, and responsibilities. This template can be customized based on the specific needs of the website project.
 
