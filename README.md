@@ -20,13 +20,12 @@
  - Adding a functionality to add favorite meditations and create user profile to save blogs and favorite meditations, could be an interesting challenge.
  - The articles and information about Mindfulness were generated on ChatGPT, asking about general concepts about Mindfulness.
  - The guided Meditation script is a result of outputs generated on ChatGPT inspired on other guided meditations and my personal practice in Mindfulness.
- - The color scheme, and layout were choosen on a palette that inspires calm and depth, and used imagery inspired on Meditation.
+ - The color scheme and layout were choosen on a palette that inspires calm and depth, also the imagery used is inspired on Meditation symbolism.
 
-
-# Project Team [WIP]
-Roles and responsibilities of team members involved in the website project
-Contact information for team members
-Communication plan for the website project team
+# Project Team 
+- Since it is a personal project I worked on my own schedule, starting by choosing the color palette, the images, the layout.
+- You can contact me trough [Twitter]([
+- (https://twitter.com/jorgettor]) and [Linkedin]([(https://www.linkedin.com/in/jorge-ttorres/])
 
 # Project Plan [WIP]
 Detailed plan for the website project, including tasks, deadlines, and dependencies
