@@ -1,8 +1,8 @@
 
 ## Mindfully Web
 
-<figure>
-<img src="./assets/_images/mindfully_desktop.png" alt="Mindfully DesktopView">
+<figure >
+<img src="./assets/_images/mindfully_desktop.png" alt="Mindfully DesktopView" style="display: block; margin: 0 auto">
 <figure-caption>Figure 1. Mindfully Desktop View</figure-caption>
 </figure>
 
@@ -38,7 +38,7 @@
 - Weekly testing of the website.
 - The performance test reached positive numbers.
 <figure>
-<img src="./assets/_images/Lighthouse_Mindfully.png" alt="Lightouse Test">
+<img src="./assets/_images/Lighthouse_Mindfully.png" alt="Lightouse Test" style="display: block; margin: 0 auto">
 <figure-caption>Figure 2. Lighthouse Results</figure-caption>
 </figure>
 
