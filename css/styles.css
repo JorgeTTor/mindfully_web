@@ -435,6 +435,9 @@ footer{
   padding-top: 10px;
 }
 
+  .footer__link:hover{
+    color: var(--medium-blue-ocean);
+  }
 
 }
 
