@@ -13,7 +13,7 @@
 
  # Project Requirements
  
- - Used HTML, CSS and JavaScript for the layout.
+ - The layout design was meticulously crafted using Figma, while HTML, CSS, and JavaScript were employed to implement and refine the layout.
  - Implemented soundcloud to host audios and embedded it on our website. 
  - Used Medium to post the articles and a SocialKit Widget to display the articles on the blog section. It would save development time.
  - The Login and the contact features will be developed on the second stage of this project.
@@ -23,12 +23,14 @@
  - The color scheme and layout were choosen on a palette that inspires calm and depth, also the imagery used is inspired on Meditation symbolism.
 
 # Project Team 
-- Since it is a personal project I worked on my own schedule, starting by choosing the color palette, the images, the layout.
-- You can contact me trough [Twitter](https://twitter.com/jorgettor) and [Linkedin](https://www.linkedin.com/in/jorge-ttorres/)
+- As this project was undertaken independently, I adhered to a self-determined timeline, commencing with the selection of a suitable color palette, curated imagery, and a meticulously crafted layout.
+- You can reach out to me via the following channels [Twitter](https://twitter.com/jorgettor) and [Linkedin](https://www.linkedin.com/in/jorge-ttorres/)
 
-# Project Plan [WIP]
-Detailed plan for the website project, including tasks, deadlines, and dependencies
-Resource allocation plan (e.g., budget, staffing, technology)
+# Project Plan 
+
+- First step was doing a mockup on paper, and then choosing the color palette, proceeding to Figma to create wireframes.
+- The performance test reached a 10
+
 Quality assurance plan (e.g., testing, debugging, user acceptance)
 
 # Project Launch [WIP]
