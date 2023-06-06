@@ -1,8 +1,6 @@
 
 ## Mindfully Web
 
-## Mindfully Web 
-
 
 # Project Overview
 - This Project was developed with the intention of practicing HTML, CSS and JavaScript skills, also intended to incorporate UI Design and Mobile first design practices.
@@ -13,18 +11,17 @@
 - Designed the interface and started from a mobile first perspective. 
 
 
- # Project Requirements [WIP]
+ # Project Requirements
  
  - Used HTML, CSS and JavaScript for the layout.
  - Implemented soundcloud to host audios and embedded it on our website. 
  - Used Medium to post the articles and a SocialKit Widget to display the articles on the blog section. It would save development time.
  - The Login and the contact features will be developed on the second stage of this project.
  - Adding a functionality to add favorite meditations and create user profile to save blogs and favorite meditations, could be an interesting challenge.
- - The 
-Technical requirements for the website (e.g., programming language, CMS, database)
-Functional requirements for the website (e.g., user login, search functionality, shopping cart)
-Content requirements for the website (e.g., text, images, videos)
-Design requirements for the website (e.g., branding, color scheme, layout)
+ - The articles and information about Mindfulness were generated on ChatGPT, asking about general concepts about Mindfulness.
+ - The guided Meditation script is a result of outputs generated on ChatGPT inspired on other guided meditations and my personal practice in Mindfulness.
+ - The color scheme, and layout were choosen on a palette that inspires calm and depth, and used imagery inspired on Meditation.
+
 
 # Project Team [WIP]
 Roles and responsibilities of team members involved in the website project
