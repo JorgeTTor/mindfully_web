@@ -46,6 +46,6 @@
 # Project Launch
 - The team will perform weekly testing on different components.
 - The blog section will be monitored two times a week to make sure the widget is working perfectly.
-- The guided meditations and blog section will be updated weekly, in order to have fresh content and relevant.
+- The guided meditations and blog section will be updated weekly, in order to have fresh and relevant content.
 
 
