@@ -29,15 +29,13 @@
 # Project Plan 
 
 - First step was doing a mockup on paper, and then choosing the color palette, proceeding to Figma to create wireframes.
+- The development proccess started from a mobile first design perspective.
 - The performance test reached positive numbers.
 <figure>
 <img src="./assets/_images/Lighthouse_Mindfully.png" alt="Lightouse Test">
 <figure-caption>Figure 2. Lighthouse Results</figure-caption>
 </figure>
 
-
-
-Quality assurance plan (e.g., testing, debugging, user acceptance)
 
 # Project Launch [WIP]
 Plan for launching the website, including marketing and promotion strategies
