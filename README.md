@@ -1,6 +1,10 @@
 
 ## Mindfully Web
 
+<figure>
+<img src="./assets/_images/mindfully_desktop.webp.png" alt="Mindfully DesktopView">
+<figure-caption>Figure 1. Mindfully Desktop View</figure-caption>
+</figure>
 
 # Project Overview
 - This Project was developed with the intention of practicing HTML, CSS and JavaScript skills, also intended to incorporate UI Design and Mobile first design practices.
