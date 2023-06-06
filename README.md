@@ -24,8 +24,7 @@
 
 # Project Team 
 - Since it is a personal project I worked on my own schedule, starting by choosing the color palette, the images, the layout.
-- You can contact me trough [Twitter]([
-- (https://twitter.com/jorgettor]) and [Linkedin]([(https://www.linkedin.com/in/jorge-ttorres/])
+- You can contact me trough [Twitter](https://twitter.com/jorgettor) and [Linkedin](https://www.linkedin.com/in/jorge-ttorres/)
 
 # Project Plan [WIP]
 Detailed plan for the website project, including tasks, deadlines, and dependencies
