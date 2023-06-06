@@ -199,16 +199,21 @@ body{
 
 .card{
   width: 320px;
-  height: auto;
+  height: 400px;
   margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.testimonial--card {
+  background-color:var(--dark-blue-ocean) ;
 }
 
 .card--content {
   padding: 20px ;
-  border-radius: 10px;
-  background-color:var(--dark-blue-ocean) ;
+ 
+ 
 }
 .card__meditation {
   background-color: var(--darker-blue);
