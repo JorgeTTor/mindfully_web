@@ -298,7 +298,7 @@ footer{
   color: var(--white);
   padding: .6em .6em;
   text-align: center;
-  border-radius:1em;
+  border-radius:.8em;
   border: none;
   margin-top: 10px;
   font-weight: 300;
@@ -400,6 +400,7 @@ footer{
     height: auto;
     padding-right: 20px;
    }
+
   .cards__container{
     display: grid;
     grid-gap: 1rem;
