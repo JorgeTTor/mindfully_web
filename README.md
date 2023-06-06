@@ -29,7 +29,13 @@
 # Project Plan 
 
 - First step was doing a mockup on paper, and then choosing the color palette, proceeding to Figma to create wireframes.
-- The performance test reached a 10
+- The performance test reached positive numbers.
+<figure>
+<img src="./assets/_images/Lighthouse_Mindfully.png" alt="Lightouse Test">
+<figure-caption>Figure 2. Lighthouse Results</figure-caption>
+</figure>
+
+
 
 Quality assurance plan (e.g., testing, debugging, user acceptance)
 
