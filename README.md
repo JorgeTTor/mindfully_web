@@ -2,7 +2,7 @@
 ## Mindfully Web
 
 <figure>
-<img src="./assets/_images/mindfully_desktop.webp.png" alt="Mindfully DesktopView">
+<img src="./assets/_images/mindfully_desktop.png" alt="Mindfully DesktopView">
 <figure-caption>Figure 1. Mindfully Desktop View</figure-caption>
 </figure>
 
