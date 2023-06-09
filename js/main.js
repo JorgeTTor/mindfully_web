@@ -1,10 +1,9 @@
 const burguerIcon = document.querySelector('.nav__icon');
 const logo = document.querySelector('.nav__logo');
 const menu = document.querySelector('.nav__list');
-let open = false;
+let open = true;
 
-
-const handleMenutoggle = () => {
+const handleMenuToggle = () => {
   if(open) {
     logo.src= '/assets/images/mindfully_white.svg';
     burguerIcon.src = '/assets/icons/icons8-close.svg ';
@@ -14,21 +13,14 @@ const handleMenutoggle = () => {
     burguerIcon.src= '/assets/icons/icons8-menu.svg';
     open = true;
   }
+
   menu.classList.toggle('nav__list--show');
+
 }
 
-burguerIcon.addEventListener('click', () => {
-  if(window.innerWidth < 768 ) {
-    handleMenutoggle();
+ burguerIcon.addEventListener('click', () => {
+   if(window.innerWidth < 768 ) {
+     handleMenuToggle();
   }
-});
-
-window.addEventListener('resize', () => {
-  if(window.innerWidth >= 768) {
-    open = false;
-    menu.classList.add('nav__list--show');
-  } else {
-    menu.classList.remove('nav__list--show');
-  }
-})
+ })
 
