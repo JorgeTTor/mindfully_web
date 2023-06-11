@@ -1,17 +1,17 @@
 const burguerIcon = document.querySelector('.nav__icon');
 const logo = document.querySelector('.nav__logo');
 const menu = document.querySelector('.nav__list');
-let open = true;
+let openMenu = true;
 
 const handleMenuToggle = () => {
-  if(open) {
+  if(openMenu) {
     logo.src= '/assets/images/mindfully_white.svg';
     burguerIcon.src = '/assets/icons/icons8-close.svg ';
-    open = false;
+    openMenu = false;
   } else {
     logo.src = "/assets/images/mindfully_logo.svg";
     burguerIcon.src= '/assets/icons/icons8-menu.svg';
-    open = true;
+    openMenu = true;
   }
 
   menu.classList.toggle('nav__list--show');
