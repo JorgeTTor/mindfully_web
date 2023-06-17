@@ -472,6 +472,7 @@ footer{
   .nav__icon {
     display: none;
   }
+  
   .nav__list {
     display: flex;
     position: relative;
@@ -480,10 +481,6 @@ footer{
     gap: 1em;
     background-color: #ffffff00;    
     padding-top: 10px;
-  }
-
-  .nav__list--show {
-    display: grid;
   }
 
   .nav__item {
