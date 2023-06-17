@@ -26,7 +26,7 @@ body{
 .container{
   margin: 0 auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1224px;
   overflow: hidden;
 }
 
@@ -82,7 +82,8 @@ body{
   text-align: center;
 }
 
-.nav__link--cta  {
+.nav__link--cta {
+  width:200px;
   margin-top: 20px;
   border: 1px solid #FFF ;
   border-radius: 10px;
@@ -415,14 +416,9 @@ footer{
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
-    .nav__item {
-      width: max-content;
-    }
-
   .nav__link:hover {
     color: var(--dark-blue-ocean);
     font-weight: 500;
- 
   }
   
  .footer {
@@ -465,7 +461,6 @@ footer{
 
 }
 
-
 @media (min-width: 768px) {
       
   .nav {
@@ -487,7 +482,7 @@ footer{
     padding-top: 10px;
   }
 
-  .navv__list--show {
+  .nav__list--show {
     display: grid;
   }
 
@@ -523,7 +518,6 @@ footer{
 
 @media (min-width: 780px ){
   .cards__container{
-    
     grid-template-columns: repeat(3, 1fr);
   }
 

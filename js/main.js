@@ -19,8 +19,8 @@ const handleMenuToggle = () => {
 }
 
  burguerIcon.addEventListener('click', () => {
-   if(window.innerWidth < 768 ) {
-     handleMenuToggle();
-  }
+
+  handleMenuToggle();
+
  })
 
