@@ -416,10 +416,7 @@ footer{
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
-  .nav__link:hover {
-    color: var(--dark-blue-ocean);
-    font-weight: 500;
-  }
+
   
  .footer {
   gap: 2em;
@@ -472,7 +469,7 @@ footer{
   .nav__icon {
     display: none;
   }
-  
+
   .nav__list {
     display: flex;
     position: relative;
@@ -481,7 +478,8 @@ footer{
     gap: 1em;
     background-color: #ffffff00;    
     padding-top: 10px;
-  }
+  } 
+
 
   .nav__item {
     border: none;
@@ -502,6 +500,11 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
+  }
+
+  .nav__link:hover {
+    color: var(--dark-blue-ocean);
+    font-weight: 500;
   }
 
   .footer_contact{
