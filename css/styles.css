@@ -145,7 +145,7 @@ body{
 .main__information {
   gap: 20px;
   min-width: 400px;
-  padding: 20px;
+  padding: 20px 60px;
   margin-top: auto;
   background-color: #67A1DD;
   overflow: hidden;
@@ -173,6 +173,7 @@ body{
   font-size: 1.2rem;
   padding-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .button {
@@ -416,8 +417,6 @@ footer{
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
-
-  
  .footer {
   gap: 2em;
   grid-template-areas: 
@@ -464,15 +463,16 @@ footer{
     height: 150px;
     grid-auto-flow: column;
     grid-auto-columns:max-content ;
- 
-  }
+  
+  } 
+
   .nav__icon {
     display: none;
   }
 
   .nav__list {
     display: flex;
-    position: relative;
+    position: relative; 
     transform: none;
     width: fit-content;
     gap: 1em;
