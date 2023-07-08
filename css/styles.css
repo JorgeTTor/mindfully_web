@@ -463,7 +463,6 @@ footer{
     height: 150px;
     grid-auto-flow: column;
     grid-auto-columns:max-content ;
-  
   } 
 
   .nav__icon {
@@ -522,3 +521,4 @@ footer{
   }
 
 }
+
