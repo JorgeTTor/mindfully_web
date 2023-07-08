@@ -31,8 +31,8 @@ burguerIcon.addEventListener('click', () => {
     logo.setAttribute("src", "/assets/images/mindfully_white.svg");
     burguerIcon.setAttribute("src", "/assets/icons/icons8-close.svg" );
   }else {
-    logo.setAttribute("src", "/assets/images/mindfully_white.svg");
-    burguerIcon.setAttribute("src", "/assets/icons/icons8-close.svg" );
+    logo.setAttribute("src", "/assets/images/mindfully_logo.svg");
+    burguerIcon.setAttribute("src", '/assets/icons/icons8-menu.svg' );
   }
      
  })
