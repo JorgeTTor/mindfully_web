@@ -265,7 +265,7 @@ body{
   height: 120px;
   border-radius: 50%;
   margin: 20px 0 10px;
-  
+  object-fit: cover;
 }
 
 .card--user {
